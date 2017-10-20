@@ -9,7 +9,7 @@ names_array = [
 "Alan",
 "Grace",
 "Linus",
-"Matz"  
+"Matz"
 ]
 
 def batch_badge_creator(names_array)
