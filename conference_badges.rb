@@ -30,7 +30,7 @@ end
 #   "7"
 # ]
 
-def assign_rooms(speakers)
+def assign_rooms(names_array)
   room_assignments = []
 
     names_array.each_with_index do |speaker, index|
