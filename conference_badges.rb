@@ -37,5 +37,5 @@ def printer
   assign_rooms(names_array).each do |speaker|
     print speaker
   end
-  
+
 end
