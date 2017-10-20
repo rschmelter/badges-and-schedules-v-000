@@ -32,7 +32,7 @@ end
 
 def assign_rooms(speakers)
   room_assignments = []
-  
+
     names_array.each_with_index {|speaker, index|}
     room_assignments << "Hello #{speaker}! You'll be assigned to room #{index + 1}!"
   end
