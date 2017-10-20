@@ -26,14 +26,12 @@ rooms = [
   "3",
   "4",
   "5",
-  "6"
+  "6",
   "7"
 ]
 
 def assign_rooms(speakers)
   room_assignments = []
-  names_array.each do [speaker]
-  room_assignments << "Hello #{spaker}! "
+  names_array.each do |speaker|
+  room_assignments << "Hello #{speaker}! "
 end
-
-
