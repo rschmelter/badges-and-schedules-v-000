@@ -20,15 +20,6 @@ end
   badge_messages
 end
 
-# rooms = [
-#   "1",
-#   "2",
-#   "3",
-#   "4",
-#   "5",
-#   "6",
-#   "7"
-# ]
 
 def assign_rooms(names_array)
   room_assignments = []
@@ -37,4 +28,14 @@ def assign_rooms(names_array)
     room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
   end
   room_assignments
+end
+
+def printer
+  batch_badge_creator(names_array).each do |names|
+    print names
+  end
+  assign_rooms(names_array).each do |speaker|
+    print speaker
+  end
+  
 end
