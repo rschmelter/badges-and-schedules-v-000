@@ -32,10 +32,10 @@ end
 
 def printer
   batch_badge_creator(names_array).each do |names|
-    print names
+    puts names
   end
   assign_rooms(names_array).each do |speaker|
-    print speaker
+    puts speaker
   end
-
+  
 end
