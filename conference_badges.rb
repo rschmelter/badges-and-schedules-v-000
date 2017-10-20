@@ -19,3 +19,21 @@ def batch_badge_creator(names_array)
 end
   badge_messages
 end
+
+rooms = [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+  "7"
+]
+
+def assign_rooms(speakers)
+  room_assignments = []
+  names_array.each do [speaker]
+  room_assignments << "Hello #{spaker}! "
+end
+
+
